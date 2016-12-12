@@ -1,0 +1,28 @@
+Getting Help
+
+$ git help <verb>
+$ git <verb> --help
+$ man git-<verb>
+e.g $ git help config
+
+Commands to configure git with user name and e-mail address:
+$ git config –global user.name “Tapi2000”
+$ git config –global user.email "takwada2000@yahoo.com"
+$ git config –global –list
+
+ 
+Command	description
+mkdir projects								this makes directory called projects
+cd projects									change into the directory called projects
+ls													list contents of the local directory
+git clone <paste url here>				Used to get a copy a repository into the local system
+git status										Shows status of current directory
+clear												Clears command line histrory
+Git init											Intiaises the local directory for Git to start tracking changes. 
+													If ‘git status’ returns lots of files, type ‘git init’ before ‘git status’.
+git status --untracked-files=no		If you want git to show only tracked files
+Git pull origin master						Updates local repository with any changes that might have occurred on the remote repository. Always recommended to perform a ‘pull’ just before a ‘push’
+Git push origin master					Updates the remote repository with the changes made in local repository
+Git ls-files										To list files being tracked by git.  Can also be used to find out if your file is being tracked by git in the current repository
+Git commit –am “adding more text”	Command to commit and add in a single step
+rm –rf <file name>						Removes or deletes named file or directory
