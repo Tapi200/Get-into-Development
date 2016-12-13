@@ -6,23 +6,23 @@ $ man git-<verb>
 e.g $ git help config
 
 Commands to configure git with user name and e-mail address:
-$ git config ñglobal user.name ìTapi2000î
-$ git config ñglobal user.email "takwada2000@yahoo.com"
-$ git config ñglobal ñlist
+$ git config ‚Äìglobal user.name ‚ÄúTapi2000‚Äù
+$ git config ‚Äìglobal user.email "takwada2000@yahoo.com"
+$ git config ‚Äìglobal ‚Äìlist
 
  
 Command	description
 mkdir projects								this makes directory called projects
 cd projects									change into the directory called projects
-ls													list contents of the local directory
-git clone <paste url here>				Used to get a copy a repository into the local system
-git status										Shows status of current directory
-clear												Clears command line histrory
-Git init											Intiaises the local directory for Git to start tracking changes. 
-													If ëgit statusí returns lots of files, type ëgit inití before ëgit statusí.
-git status --untracked-files=no		If you want git to show only tracked files
-Git pull origin master						Updates local repository with any changes that might have occurred on the remote repository. Always recommended to perform a ëpullí just before a ëpushí
-Git push origin master					Updates the remote repository with the changes made in local repository
-Git ls-files										To list files being tracked by git.  Can also be used to find out if your file is being tracked by git in the current repository
-Git commit ñam ìadding more textî	Command to commit and add in a single step
-rm ñrf <file name>						Removes or deletes named file or directory
+ls											list contents of the local directory
+git clone <paste url here>					Used to get a copy a repository into the local system
+git status									Shows status of current directory
+clear										Clears command line histrory
+Git init									Intiaises the local directory for Git to start tracking changes. 
+											If ‚Äògit status‚Äô returns lots of files, type ‚Äògit init‚Äô before ‚Äògit status‚Äô.
+git status --untracked-files=no				If you want git to show only tracked files
+Git pull origin master						Updates local repository with any changes that might have occurred on the remote repository. Always recommended to perform a ‚Äòpull‚Äô just before a ‚Äòpush‚Äô
+Git push origin master						Updates the remote repository with the changes made in local repository
+Git ls-files								To list files being tracked by git.  Can also be used to find out if your file is being tracked by git in the current repository
+Git commit ‚Äìam ‚Äúadding more text‚Äù			Command to commit and add in a single step
+rm ‚Äìrf <file name>							deletes named file or folder
