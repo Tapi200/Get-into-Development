@@ -9,12 +9,32 @@ Commands to configure git with user name and e-mail address:
 $ git config –global user.name “Tapi2000”
 $ git config –global user.email "takwada2000@yahoo.com"
 $ git config –global –list
-
  
 Command	description
-mkdir projects								this makes directory called projects
-cd projects									change into the directory called projects
-ls											list contents of the local directory
+pwd							print working directory
+hostname					my computer's network name
+mkdir						make directory
+cd							change directory
+ls							list directory
+rmdir						remove directory
+pushd						push directory
+popd						pop directory
+cp							copy a file or directory e.g. > awesome.txt thefourthfile.txt
+New-Item					Make an empty file. E.g > New-Item iamcool.txt -type file
+robocopy					robust copy
+mv							move a file or directory
+more or less				View a file. page through a file. Type q to get out the file
+type						print the whole file
+forfiles					run a command on lots of files
+dir -r						find files
+select-string				find things inside files
+help						read a manual page
+helpctr						find what man page is appropriate
+echo						print some arguments
+set							export/set a new environment variable
+exit						exit the shell
+rm -rf <file name>			deletes the named file of folder
+runas						DANGER! Become super user root DANGER!
 git clone <paste url here>					Used to get a copy a repository into the local system
 git status									Shows status of current directory
 clear										Clears command line histrory
@@ -26,3 +46,14 @@ Git push origin master						Updates the remote repository with the changes made 
 Git ls-files								To list files being tracked by git.  Can also be used to find out if your file is being tracked by git in the current repository
 Git commit –am “adding more text”			Command to commit and add in a single step
 rm –rf <file name>							deletes named file or folder
+
+How to open NotePad++ in Gitbash
+start notepad++ 
+start notepad++ <filename>
+alias np='start notepad++'
+np <filename>
+
+
+Notes:
+Error in cloning: fatal: unable to access: SSL certificate problem: self signed certificate in certificate chain
+Workaround: git config --global http.sslVerify false
